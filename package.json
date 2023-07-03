@@ -1,0 +1,15 @@
+{
+  "name": "vcardmern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd backend && npm install",
+    "start-server": "cd backend && node server.js",
+    "install-frontend": "cd vcard1 && npm install",
+    "build-frontend": "cd vcard1 && npm run build",
+    "start-frontend": "cd vcard1 && npm run start"
+  },
+  "author": "",
+  "license": "ISC"
+}
