@@ -33,7 +33,7 @@ function ContactForm() {
       },
       body: JSON.stringify(data),
     };
-    fetch("http://localhost:4000/contactus", requestOptions)
+    fetch("https://vcard-fmlz.onrender.com/contactus", requestOptions)
       .then((response) => response.json())
       .then((data) => {
         console.log("Response:", data);
