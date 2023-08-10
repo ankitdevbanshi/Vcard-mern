@@ -8,7 +8,7 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineData from "./TimelineData";
 import { timelineItemClasses } from "@mui/lab/TimelineItem";
 import Card from "./ui/Card";
-import Transitions from "./Transition";
+// import Transitions from "./Transition";
 
 function Resume() {
   let sx = {
@@ -18,7 +18,7 @@ function Resume() {
     },
   };
   return (
-    <Transitions>
+  
       <Card>
         <section className="flex flex-col gap-4   mt-3">
           <div className="flex py-4 justify-center items-center h-1/5 bg-slate-700">
@@ -92,7 +92,7 @@ function Resume() {
           </div>
         </section>
       </Card>
-    </Transitions>
+   
   );
 }
 
