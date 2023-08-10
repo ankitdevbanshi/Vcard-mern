@@ -4,11 +4,11 @@ import { discount, robot, dropbox, photo, mypic } from "../assets";
 import insta from "../assets/instagram.svg";
 import github from "../assets/icons8-github.svg";
 import facebook from "../assets/facebook.svg";
-import Transitions from "./Transition";
+// import Transitions from "./Transition";
 
 function Hero() {
   return (
-    <Transitions>
+  
       <section
         id="home"
         className="overflow-hidden flex flex-col rounded-lg shadow-sm pb-7 pt-0 gap-5"
@@ -97,7 +97,7 @@ function Hero() {
           </div>
         </div>
       </section>
-    </Transitions>
+  
   );
 }
 
