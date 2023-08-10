@@ -1,23 +1,23 @@
-import { motion, AnimatePresence } from "framer-motion";
+// import { motion, AnimatePresence } from "framer-motion";
 
-const animationConfiguration = {
-  initial: { opacity: 0 },
-  animate: { opacity: 1 },
-  exit: { opacity: 0 },
-};
+// const animationConfiguration = {
+//   initial: { opacity: 0 },
+//   animate: { opacity: 1 },
+//   exit: { opacity: 0 },
+// };
 
-const Transitions = ({ children }) => {
-  return (
-    <motion.div
-      variants={animationConfiguration}
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      transition={{ duration: 0.5 }}
-    >
-      {children}
-    </motion.div>
-  );
-};
+// const Transitions = ({ children }) => {
+//   return (
+//     <motion.div
+//       variants={animationConfiguration}
+//       initial="initial"
+//       animate="animate"
+//       exit="exit"
+//       transition={{ duration: 0.5 }}
+//     >
+//       {children}
+//     </motion.div>
+//   );
+// };
 
-export default Transitions;
+// export default Transitions;
