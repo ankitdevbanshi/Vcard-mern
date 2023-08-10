@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { menu, logo, close } from "../assets";
+import { menu, close } from "../assets";
 import { navLinks } from "../constants/index";
 import { Link } from "react-router-dom";
+import logo from "../assets/user.png";
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -10,7 +11,7 @@ function Navbar() {
     <nav
       className={`w-full flex bg-slate-700 p-6 justify-between items-center navbar`}
     >
-      <img src={logo} className="w-[124px] h-[32px]" alt="logo" />
+      <img src={logo} className="w-[24px] h-[32px]" alt="logo" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((item, i) => {
